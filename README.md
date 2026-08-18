@@ -4,8 +4,6 @@ Playwright + TypeScript end-to-end tests for `https://testing.platformforge.dev`
 
 ## Required scenarios
 
-The course requires scenarios **2, 5 and 6** to pass.
-
 - Scenario 2: add one product, verify cart badge, Cart page and quantity.
 - Scenario 5: checkout with valid receiver information using COD.
 - Scenario 6: update Full Name in the UI and restore the original name through the API.
