@@ -42,18 +42,6 @@ PLAYWRIGHT/
 ├── tsconfig.json
 ```
 
-## Framework requirements covered
-
-- Playwright + TypeScript
-- Page Object Model
-- Core fixtures for Page Objects and API client
-- JSON data-driven test data
-- Explicit `beforeEach` / `afterEach` hooks
-- API setup and cleanup
-- Independent test setup
-- Allure reporter
-- GitHub Actions
-
 ## Fixture design
 
 - `page.fixture.ts` creates reusable Page Object fixtures.
@@ -81,12 +69,3 @@ Generate Allure Report after a test run:
 npm run report:generate
 npm run report:open
 ```
-
-## Notes
-
-- Product IDs and prices are resolved at runtime from `GET /api/products`.
-- Cart state is cleared with `PUT /api/cart` before/after cart-related tests.
-- Scenario 5 captures the order created by the UI and deletes that exact order via API.
-- Scenario 6 restores the original profile name via API in `afterEach`.
-- Scenario 7 seeds one exact order via API and deletes only that order in cleanup.
-- Tests run with one worker because all scenarios use the same fixed course account and modify shared server-side cart/profile/order state.
