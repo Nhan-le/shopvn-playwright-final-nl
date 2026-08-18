@@ -1,0 +1,51 @@
+{
+  "login": {
+    "username": "admin",
+    "password": "password123"
+  },
+  "scenario1": {
+    "errorMessage": "Vui lòng nhập đầy đủ tài khoản và mật khẩu."
+  },
+  "scenario2": {
+    "productName": "Áo thun nam",
+    "quantity": 1
+  },
+  "scenario3": {
+    "productName": "Giày sneaker",
+    "quantity": 2
+  },
+  "scenario4": {
+    "singleProduct": "Áo thun nam",
+    "multipleProducts": [
+      "Áo thun nam",
+      "Kính mát"
+    ]
+  },
+  "scenario5": {
+    "productName": "Giày sneaker",
+    "quantity": 1,
+    "recipientName": "Test data đúng",
+    "recipientPhone": "0987654321",
+    "address": "Hai Bà Trưng, Hà Nội",
+    "paymentMethod": "cash"
+  },
+  "scenario6": {
+    "newName": "Playwright Test Name"
+  },
+  "scenario7": {
+    "products": [
+      {
+        "name": "Áo thun nam",
+        "quantity": 1
+      },
+      {
+        "name": "Kính mát",
+        "quantity": 1
+      }
+    ],
+    "recipientName": "Test data đúng",
+    "recipientPhone": "0987654321",
+    "address": "Hai Bà Trưng, Hà Nội",
+    "paymentMethod": "cash"
+  }
+}
